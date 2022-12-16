@@ -23,7 +23,7 @@ class NoteDemos extends StatelessWidget {
           children: [
             SizedBox(height: 250, child: Image.asset("assets/book.png")),
             Padding(
-              padding: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 25),
               child: _TitleWidget(title: _title),
             ),
             Padding(
